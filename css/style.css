@@ -8,7 +8,19 @@
 }
 html {
   scroll-behavior: smooth;
+  background-image: linear-gradient(
+    90deg,
+    rgba(144, 5, 237, 1),
+    rgba(237, 5, 125)
+  );
 }
 body {
   font-family: "Open Sans", sans-serif;
+}
+.main-header span {
+  background-image: linear-gradient(
+    90deg,
+    rgba(5, 106, 237, 1),
+    rgba(59, 237, 5)
+  );
 }
